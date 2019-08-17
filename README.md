@@ -26,7 +26,7 @@ this last example also visualizes the correspondence that was found.
 ## uGH_top_down.m
 uGH_top_down.m is Matlab implementation of an algoritm for computing a variant of the Gromov-Hausdorff distance between ultrametric spaces called uGH. See the paper for more details. 
 
-**Note:** You need Matlab's Bioinformatics toolbox in order to run the uGH code. In more detail, the function **is_iso_matlab.m** invokes graph isomorphism code provided by the Bioinformatics toolbox. 
+**Note:** You need [Matlab's Bioinformatics toolbox](https://www.mathworks.com/products/bioinfo.html) in order to run the uGH code. In more detail, the function **is_iso_matlab.m** invokes graph isomorphism code provided by the Bioinformatics toolbox. 
 
 **Syntax:**
 ```
