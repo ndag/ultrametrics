@@ -1,7 +1,7 @@
 The algorithms implemented ins repo were developed by Facundo Memoli, Zane Smith, and Zhengchao Wan in the paper <xxx>.
 
 # Gromov-Hausdorff like distance between ultrametrics
-##Find_Corr.m is a Matlab implementation of an algorithm for finding a correspondence between two finite ultrametric spaces with distortion bounded by epsilon, if it exists.
+## Find_Corr.m is a Matlab implementation of an algorithm for finding a correspondence between two finite ultrametric spaces with distortion bounded by epsilon, if it exists.
 
 **Syntax:**
 ```
@@ -22,7 +22,7 @@ There are three test files:
 - **test_diff_card.m** This function looks at a scenario where one samples two subsets from a dataset exbiting two clusters; 
 this last example also visualizes the correspondence that was found.
 
-##uGH_top_down.m is Matlab implementation of an algoritm for computing a variant of the Gromov-Hausdorff distance between ultrametric spaces called uGH. See the paper for more details. 
+## uGH_top_down.m is Matlab implementation of an algoritm for computing a variant of the Gromov-Hausdorff distance between ultrametric spaces called uGH. See the paper for more details. 
 **Syntax:**
 ```
 % uGH_top_down - computes uGH between two ultrametrics
