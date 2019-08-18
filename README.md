@@ -26,7 +26,7 @@ this last example also visualizes the correspondence that was found.
 ## uGH_top_down.m
 **uGH_top_down.m** is Matlab implementation of an algoritm for computing a variant of the Gromov-Hausdorff distance between ultrametric spaces called uGH. See the paper for more details. 
 
-**Note:** You need [Matlab's Bioinformatics toolbox](https://www.mathworks.com/products/bioinfo.html) in order to run the uGH code. In more detail, the function **is_iso_matlab.m** invokes graph isomorphism code provided by the Bioinformatics toolbox. 
+**Note:** You need [Matlab's Bioinformatics toolbox](https://www.mathworks.com/products/bioinfo.html) in order to run the uGH code. In more detail, the function **is_iso_matlab.m** invokes graph isomorphism code provided by the Bioinformatics toolbox. This code however is not specific to tree isomorphism. Hence, a potential improvement is to write a mex wrapper for this [code](https://github.com/spaghetti-source/algorithm/blob/master/graph/tree_isomorphism.cc). Also, note that is_iso_matlab.m checks for **combinatorial** isomorphism. Our use of this is justified because a small variant of Theorem 4.7 in our paper is true: it is enough to check for every t whether the unweighted  dendrograms associated to uXt and uYt are isomorphic.   
 
 **Syntax:**
 ```
