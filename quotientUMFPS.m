@@ -5,7 +5,7 @@ function uXt = quotientUMFPS(uX,t)
 % function
 
 uXt_big = uX;
-uXt_big(uX<t) = 0;
+uXt_big(uX<=t) = 0;
 
 I = [1];
 dI = uXt_big(1,:);

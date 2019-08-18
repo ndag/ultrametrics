@@ -8,11 +8,12 @@ ns = length(spec);
 for c=1:ns
     t = spec(c)
     
-    subux = quotientUMFPS(ux,t-eps);
-    subuy = quotientUMFPS(uy,t-eps);
+    subux = quotientUMFPS(ux,t);
+    subuy = quotientUMFPS(uy,t);
     
     if ~is_iso_matlab(subux,subuy)
-        d = t;
+        d = spec(max([c-1,1]));
+        %d = spec(c);
         return
     end
 end
