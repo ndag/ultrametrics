@@ -11,7 +11,7 @@ for c=1:ns
     subux = quotientUMFPS(ux,t-eps);
     subuy = quotientUMFPS(uy,t-eps);
     
-    if ~is_iso_matlab(subux,subuy)
+    if ~is_iso(subux,subuy)
         d = t;
         return
     end
