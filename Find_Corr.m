@@ -37,7 +37,7 @@ nuy = length(uy(:,1));
 R = 0;
 if(abs(diam_x-diam_y) > eps)
 	return;
-elseif( eps > max(diam_x,diam_y) )
+elseif( eps >= max(diam_x,diam_y) )
 	R = ones(nuy,nux);
 	if(swapped)
 		R = R';
