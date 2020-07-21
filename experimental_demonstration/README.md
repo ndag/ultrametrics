@@ -12,7 +12,7 @@ Then, we subsample from each model 9 subspaces containing of 3 10-point subspace
 **test_independent.m**: For each n=1,2,3,4,5, we generate 9 ultrametric spaces with n blocks independently (they are not subsampling from a same common space). Each of the space contains 10,20, or 30 points. Spaces with the same number of blocks share roughly the same “big structure”.
 
 # Computing uGH
-We compute uGH between ultrametric spaces generated from each sampling method separately and show the heatmaps representing the distance matrices below, where the left heatmap is for the subsampling method and the right heatmap is for the independent sampling method.
+We compute uGH between ultrametric spaces generated from each sampling method separately using **computing_ugh.m** and show the heatmaps representing the distance matrices below, where the left heatmap is for the subsampling method and the right heatmap is for the independent sampling method.
 ![output](https://github.com/ndag/ultrametrics/blob/master/experimental_demonstration/ugh_result.png)
 
 
