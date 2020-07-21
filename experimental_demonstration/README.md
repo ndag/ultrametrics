@@ -2,15 +2,16 @@ In this experiment we compute uGH between ultrametric spaces generated from two 
 
 
 # Subsampling from models
-**test_subsample.m** first randomly generate 5 different ultrametric spaces as 5 "models": dendrograms corresponding to these models have different number of blocks and each block contains 100 points.
+**test_subsample.m**: We first randomly generate 5 different ultrametric spaces as 5 "models": dendrograms corresponding to these models have different number of blocks and each block contains 100 points.
 ![output](https://github.com/ndag/ultrametrics/blob/master/experimental_demonstration/5models.png)
 
-There are three test files: 
-- **test_positive.m** Exemplifies cases when one succeeds in finding a correspondence with the required distortion. 
-- **test_negative.m** Exemplifies cases when one fails to do so). 
-- **test_diff_card.m** This function looks at a scenario where one samples two subsets from a dataset exbiting two clusters; 
-this last example also visualizes the correspondence that was found.
+Then, we subsample from each model 9 subspaces containing of 3 10-point subspaces, 3 20-point subspaces and 3 30-point subspaces. Below you can see all the 9 subsamples of the model space with 4 clusters:
+![output](https://github.com/ndag/ultrametrics/blob/master/experimental_demonstration/subsampling.png)
 
+# Independent sampling
+**test_independent.m**: For each n=1,2,3,4,5, we generate 9 ultrametric spaces with n blocks independently (they are not subsampling from a same common space). Each of the space contains 10,20, or 30 points. Spaces with the same number of blocks share roughly the same “big structure”.
+
+# Computing uGH
 ## uGH_top_down.m
 **uGH_top_down.m** is Matlab implementation of an algoritm for computing a variant of the Gromov-Hausdorff distance between ultrametric spaces called uGH. See the paper for more details. 
 
