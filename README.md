@@ -1,4 +1,4 @@
-The algorithms implemented ins repo were developed by [Facundo Memoli](https://people.math.osu.edu/memolitechera.1/), [Zane Smith](https://github.com/Zane3G), and [Zhengchao Wan](https://math.osu.edu/people/wan.252-0) in the paper https://arxiv.org/abs/1912.00564.
+The algorithms implemented in this repo were developed by [Facundo Memoli](https://people.math.osu.edu/memolitechera.1/), [Zane Smith](https://github.com/Zane3G), and [Zhengchao Wan](https://math.osu.edu/people/wan.252-0) in the paper https://arxiv.org/abs/1912.00564.
 
 # Gromov-Hausdorff like distance between ultrametrics
 ## Find_Corr.m
