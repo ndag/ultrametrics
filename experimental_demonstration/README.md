@@ -16,4 +16,4 @@ We compute uGH between ultrametric spaces generated from each sampling method se
 ![output](https://github.com/ndag/ultrametrics/blob/master/experimental_demonstration/ugh_result.png)
 
 
-From this experiment we can conclude that uGH is sensitive to changes of "big structures" of dendrograms as indicated from the structural theorem in our preprint.
+Spaces sampled from the same model space have the same "big structure" and thus uGH distance between them is small as indicated from the blue areas in the left figure. However, as for independent sampling, spaces with the same number of blocks may have slight difference of "big structures" which result in a large uGH distance. From this experiment we can conclude that uGH is sensitive to changes of "big structures" of dendrograms as implied from the structural theorem in our preprint.
