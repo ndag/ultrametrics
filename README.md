@@ -41,4 +41,4 @@ this last example also visualizes the correspondence that was found.
 There is an associated test file and also a subfolder containing an experimental demostration:
 - **test_uGH.m** (exemplifies computation of uGH between random dendrograms. Includes visualization. We suggest you run it many times. Here's an example output:
 ![output](https://github.com/ndag/ultrametrics/blob/master/dendros.png)
-- ** experimental_demostration ** (Zhengchao:continue)
+- **experimental_demostration** (Zhengchao:continue)
