@@ -43,4 +43,4 @@ There is an associated test file and also a subfolder containing an experimental
 
 ![output](https://github.com/ndag/ultrametrics/blob/master/dendros.png)
 
-- **experimental_demostration** (Zhengchao:continue)
+- **experimental_demostration** This folder contains a demonstration of computing the uGH between ultrametric spaces generated from different strategies.
